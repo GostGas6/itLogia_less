@@ -5,7 +5,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<<<<<<< HEAD
     <title>Аренда премиальных автомобилей</title>
     <link rel="stylesheet" href="styles/style.css">
 </head>
@@ -22,10 +21,10 @@
                         <a href="#">Главная</a>
                     </li>
                     <li class="menu-item">
-                        <a href="#">Автомобили</a>
+                        <a href="#cars">Автомобили</a>
                     </li>
                     <li class="menu-item">
-                        <a href="#">Бронирование авто</a>
+                        <a href="#price">Бронирование авто</a>
                     </li>
                 </ul>
             </nav>
@@ -47,7 +46,7 @@
             </div>
         </div>
     </section>
-    <section class="car">
+    <section class="car" id="cars">
         <div class="container">
             <h2 class="sub-title">Наш автопарк</h2>
             <div class="car-items">
@@ -211,34 +210,30 @@
         </div>
     </section>
 
-=======
-    <title>Моя первая страница</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-
-<body>
-    <h1 class="title">Ремонт <span>ноутбуков</span></h1>
-    <div class="main">
-        <div class="main-info">
-
-            <h2>Почему лучше обратиться именно к нам?</h2>
-            <ul>
-                <li>Бесплатная диагностика поломки прямо при клиенте</li>
-                <li>Молниеносная скорость починки (от 20 минут до 2 рабочих дней)</li>
-                <li>Больше 10 лет на рынке – починили более 2500 ноутбуков</li>
-            </ul>
-            <a href="https://google.com">Посмотреть кейсы</a>
+    <section class="price" id="price">
+        <div class="container">
+            <h2 class="sub-title">Узнать цену и забронировать</h2>
+            <div class="price-text">Заполните данные, и мы перезвоним вам для уточнения всех деталей бронирования</div>
+            <form action="" class="price-form">
+                <input type="text" class="price-input" placeholder="Ваше имя">
+                <input type="text" class="price-input" placeholder="Ваш телефон">
+                <input type="text" class="price-input" placeholder="Автомобиль, который вас интересует">
+                <button class="button">Узнать цену</button>
+            </form>
+            <img src="images/rolls.png" alt="Rolls" class="price-image">
         </div>
-        <img src="image2.png" alt="image">
-    </div>
-    <div class="form">
-        <h2>Прайс наших услуг</h2>
-        <input type="text" placeholder="Ваше имя">
-        <input type="text" placeholder="Ваш телефон">
-        <input type="text" placeholder="Ваш E-mail">
-        <button>Отправить запрос</button>
-    </div>
->>>>>>> 8c511d407539f4d18450fc115f64bcc240a68a57
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo.png" alt="Logo">
+            </div>
+            <div class="rights">
+                Все права защищены
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
